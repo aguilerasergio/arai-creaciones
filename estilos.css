@@ -16,10 +16,16 @@ body{
     display: flex;
    padding-left: 26px;
    }
-   div .section{
-     float: left;
-   }
    .logo{
-     width: 150px;
+    width: 120px;
+    height: 180px;
+  }
+    .section{
+      padding: 0px;
+      margin: 0px;
+     float: left;
+     width: 130px;
      height: 200px;
+     border: solid 1px white;
    }
+  
