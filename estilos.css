@@ -16,3 +16,10 @@ body{
     display: flex;
    padding-left: 26px;
    }
+   div .section{
+     float: left;
+   }
+   .logo{
+     width: 200px;
+     height: 280px;
+   }
