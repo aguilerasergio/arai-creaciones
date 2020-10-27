@@ -9,9 +9,11 @@ body{
    .nav-arai{
      width: 100%;
      height: 300px;
+     border: solid 1px white;
+
      }
    .logo2{
-    width: 850px;
+    width: 1300px;
     height: 250px;
     display: flex;
    padding-left: 26px;
