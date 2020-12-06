@@ -85,7 +85,7 @@ div .celu{
         height: 650px;
         align-items: center;
         background: rgba(15, 155, 15, 0.637);
-         }
+        }
     div .section-2 .atril{
     float:left;
     width: 240px;
@@ -111,47 +111,71 @@ div .celu{
         /*section-3*/
         div .enmarcaciones{
             width: 100%;
-            height: 1000px;
+            height: 1040px;
             padding-top: 0px;
             padding-bottom: 0px;
             display: flex;
             justify-content: space-between;
             background: rgba(15, 155, 15, 0.808) ;
         }
-        .enmarcaciones-titulo{
-            color: aliceblue;
-            margin-left: 40px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            border: solid 1px white;
+         .enmarcaciones-titulo{
+             margin-top: 10px;
+         }
+        .ancla{
+            font-size: 35px;
+            font-weight: 100;
+            color: rgb(8, 119, 32);
+            margin-left: 460px;
+            margin-top: 5px;
+            background: none;
+            border-color: rgb(8, 119, 32) ;
         }
-        .enmarcaciones img{
+         .enmarcaciones img{
             margin-left: 47px;
-            margin-top: 42px;
+            margin-top: 36px;
         }
         /*restauraciones*/
-        div .restauracion{
+         div .restauracion{
             width: 100%;
-            height: 990px;
+            height: 1021px;
             display: flex;
             justify-content: space-between;
             background: rgba(6, 146, 6, 0.842);
-        }
-        .restauracion img{
-            margin-left: 47px;
+         }
+         .restauraciones-titulo{
+             margin-top: 10px;
+         }
+         .ancla-2{
+             font-size: 35px;
+             font-weight: 100;
+             color:rgb(8, 119, 32) ;
+             margin-left: 480px;
+             margin-top: 10px;
+             background: none;
+         }
+         .restauracion img{
+            margin-left: 36px;
             margin-top: 42px;
         }
         /*atriles*/
     div .atriles{
         width: 100%;
-        height: 640px;
+        height: 660px;
         padding-top:40px;
         background:rgba(8, 128, 8, 0.637);
         display: flex;
         float: left;
         justify-content: space-between;
+        border: solid 1px white;
             }
-    .atriles h3{
+      .ancla3{
+          font-size: 30px;
+          font-weight: 100;
+          color: rgb(16, 77, 4);
+          background: none;
+          border: solid 1px white;
+      }
+    .atriles{
         float: left;
         margin-left: 20px;
         margin-right: 20px;
