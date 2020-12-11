@@ -128,10 +128,14 @@ div .celu{
             }
          .ancla-4{
              font-size: 18px;
-             color: white;
+             color: rgb(66, 236, 123);
              margin-left: 30px;
-              border: solid 1px rgb(11, 129, 41);
-              background:  rgba(15, 155, 15, 0.63);
+             
+             border-style: none;
+             background:  rgba(15, 155, 15, 0.63);
+              }
+              .ancla-4:hover{
+                  opacity: .7;
               }
         .ancla{
             font-size: 35px;
