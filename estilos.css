@@ -123,7 +123,16 @@ div .celu{
         }
          .enmarcaciones-titulo{
              margin-top: 10px;
-         }
+             float: left;
+             width: 100%;
+            }
+         .ancla-4{
+             font-size: 18px;
+             color: white;
+             margin-left: 30px;
+              border: solid 1px rgb(11, 129, 41);
+              background:  rgba(15, 155, 15, 0.63);
+              }
         .ancla{
             font-size: 35px;
             font-weight: 100;
