@@ -112,24 +112,20 @@ div .celu{
             justify-content: space-between;
             background: rgba(15, 155, 15, 0.808) ;
         }
-         .enmarcaciones-titulo{
+         div .enmarcaciones-titulo{
              margin-top: 10px;
             display:flex;
              width: 100%;
             }
-        .inicio{
-            font-size: 20px;
-            color: rgb(90, 235, 126);
-             height: 27px;
-             width: 60px;
-             float: left;
-             margin-top: 10px;
-             margin-left: 10px;
-             background: none;
-            }
+         img .inicio{
+            height: 30px;
+            width: 30px;
+            background:green;
+            border: solid 1px white;
+        }
+          
         .ancla{
             font-size: 35px;
-            font-weight: 100;
             color: rgb(8, 119, 32);
             margin-left: 310px;
             margin-top: 5px;
