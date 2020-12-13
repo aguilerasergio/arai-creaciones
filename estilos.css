@@ -30,7 +30,7 @@
      width: 100%;
      padding-top: 8px;
      padding-left: 20px;
-     background: rgba(94, 94, 231, 0.301);
+     background: rgba(10, 145, 199, 0.466);
      margin-bottom: 0px;
      border-bottom: solid 3px rgba(114, 101, 228, 0.199);
     } 
@@ -48,8 +48,8 @@
  .icon{
      height: 30px;
      width: 30px;
-     margin-right: 0px;
- }
+     margin: 0px;
+    }
  .nav-2{
      display: flex;
      float: left;
@@ -61,14 +61,39 @@
 
  /*banners*/
  .banner{
-     width: 90%;
-     height: 200px;
+     width: 88%;
+     height: 250px;
      margin-top: 0px;
      padding: 0px;
      margin-left: 10px;
  }
-
-
+ /*section*/
+div .section{
+    display:flex;
+    justify-content: space-between;
+     margin-top: 1px;
+    }
+div .section .maletin{
+    float: left;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+div .section .celu{
+    float:left;
+    margin-top: 30px;
+    margin-left: 270px;
+    margin-right: 260px;
+}
+div .section .caja-te{
+  float: left;
+  margin-top: 60px;
+  margin-left: 110px;
+}
+.celu:hover{
+    border-bottom: solid 2px white; 
+    opacity: .6;
+}
 
 
 
