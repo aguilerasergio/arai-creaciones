@@ -1,219 +1,55 @@
-*{
+ *{
    box-sizing: border-box;
    padding: 0px;
    margin: 0px; 
-}
-body{
-background-color: rgba(127, 255, 212, 0.493);
-color: ffffff;
-}
-div .content{
-display:flex;
-}
-/*navegacion*/
-.inicio-2{
-    background: none;
-}
-div .navegacion{
-box-sizing: border-box;
-padding: 0px;
-margin: 0px; 
-width: 100%;
-height: 40px;
-display: flex;
-}
-a{
-    font-size: 25px;
-    color: rgb(58, 58, 240);
-    text-decoration: none;
-    font-weight: normal ;
-    background-color: rgba(67, 185, 231, 0.465);
-    padding: 2px 14px;
-    }
- ul{
-    list-style: none;
-    height: 30px;
-    display: flex;
-    margin-top: 5px;
-    margin-bottom:6px;
-    margin-left: 100px;
-    }
-ul li{
-    display: flex;
-    padding: 1px 15px;
-    }
- .icon{
-    width: 30px;
-    height: 30px;
-    }
-a:hover{
-    border-bottom: solid 2px blue;
-    opacity: .6;
-    }
-.content-1{
-    margin-left: 10px;
-    margin-top: 1px;
-}
-.banner{
-    margin-left: 1px;
-    width: 100%;
-    height: 210px;
-}
+ }
+ body{
+  background-color: rgba(43, 147, 189, 0.493);
+  color: ffffff;
+ }
+ div .content{
+  display:flex;
+ }
+ /*navegacion*/
+ div .navegacion{
+     height: 45px;
+     width: 100%;
+     padding-top: 8px;
+     background: rgba(94, 94, 231, 0.301);
+     border: solid 1px black;
+ } 
 
-/*seccion*/
-.section{
-    box-sizing: border-box;
-    width: 100%;
-    height: 245px;
-    margin-top: 35px;
-    display: flex;
-    margin-bottom:20px;
-    }
-.maletin{
-    float: left;
-    margin-top: 40px;
-    margin-left: 60px;
-    }
-div .celu{
-    float: left;
-    margin-left: 390px;
-}
-.celu:hover{
-    border-bottom: solid 2px blue;
-    opacity: .6;
-}
-.caja-te{
-     float:left;
-     height: 170px;
-     margin-top: 50px;
-     margin-left: 387px;
-    }
-    /*section-2*/
-    div .section-2{
-        box-sizing: border-box;
-        display: flex;
-        width: 100%;
-        height: 400px;
-        align-items: center;
-        background: rgba(67, 185, 231, 0.185);
-    }
-     .section-2{
-        box-sizing: border-box;
-     padding: 0px
-    }
-     /*section-3*/
-        div .enmarcaciones{
-            width: 100%;
-            height: 1200px;
-            padding-top: 0px;
-           background: rgba(15, 155, 15, 0.808) ;
-           justify-content: space-between;
-           padding-left: 15px;
-           margin-top: 10px;
-         }
-         div .enmarcaciones-titulo{
-             margin-top: 10px;
-            display:flex;
-             width: 100%;
-            }
-         img .inicio{
-            height: 30px;
-            width: 30px;
-            background:green;
-            border: solid 1px white;
-        }
-         .ancla{
-            font-size: 35px;
-            color: rgb(8, 119, 32);
-            margin-left: 310px;
-            margin-top: 5px;
-            background: none;
-            border-color: rgb(8, 119, 32) ;
-        }
-        .grid-container{
-            margin-top: 15px;
-            margin-bottom: 20px;
-            padding-left: 46px;
-            display: grid;
-            grid-template-columns: auto auto auto auto auto;
-            grid-column-gap:10px;
-            grid-row-gap: 20px;
-        }
-        .grid-conteiner-2{
-            display: grid;
-            justify-content: space-evenly;
-            grid-template-columns: auto auto auto;
-            margin-left: 42px;
-        }
+div .navegacion ul li{
+    float:left;
+    justify-content: space-evenly;
+    margin-left: 20px;
+ }
+ div .navegacion ul li img .icon{
+     margin-top: 0px;
+     width: 20px;
+     height: 20px;
+     border: solid 1px yellow;
+ }
+ .navegacion ul li a{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+ }
+
+
+
+
+
+
+
        
-        /*restauraciones*/
-         div .restauracion{
-            width: 100%;
-            height: 1021px;
-            display: flex;
-            padding-left: 20px;
-            justify-content: space-evenly;
-            background: rgba(6, 146, 6, 0.842);
-         }
-         .restauraciones-titulo{
-             margin-top: 10px;
-             display: flex;
-         }
-         .restauracion img{
-            margin-left: 40px;
-            margin-top: 42px;
-        }
-        .restauraciones-ancla{
-            font-size: 35px;
-            color: rgb(8, 119, 32);
-            float: center;
-            background: none;
-            margin-left: 310px;
-        }
-        /*atriles*/
-    div .atriles{
-        width: 100%;
-        height: 670px;
-        padding-top:8px;
-        padding-bottom: 0px;
-        background:rgba(8, 128, 8, 0.637);
-        display: flex;
-        float: left;
-        justify-content: space-between;
-    }
-     .atriles{
-        float: left;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .ancla-3atril{
-            margin-left: 310px;
-            float: left;
-        }
-        .atriles-ancla{
-            font-size: 35px;
-            color: rgb(11, 165, 44);
-            background: none;
-        }
-    .atriles ul{
-        float: left;
-        height: 520px;
-        margin-top: 10px;
-        margin-left: 30px;
-        }
-    .atriles ul li{
-        float: left;
-        }
-        .footer-2{
-            font-size: 18px;
-            text-align: right; 
-            padding-right: 40px;
-            padding-bottom: 10px;
-            background: rgba(9, 112, 9, 0.972);   
-        }
-   
-        /*dispositivos*/
-     
+
+       
+    
+
+
+    
+       
        
         
          
