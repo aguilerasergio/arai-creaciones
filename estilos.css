@@ -69,6 +69,8 @@
  }
  /*section*/
 div .section{
+    width: 100%;
+    height: 330px;
     display:flex;
     justify-content: space-between;
      margin-top: 1px;
@@ -93,6 +95,28 @@ div .section .caja-te{
 .celu:hover{
     border-bottom: solid 2px white; 
     opacity: .6;
+}
+/*enmarcaciones*/
+div .enmarcaciones{
+    width: 100%;
+    height: 950px;
+    background-color: rgba(109, 196, 22, 0.575);
+}
+div .titulos {
+    display: flex;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+.titulos a{
+    float: left;
+    margin-left: 520px;
+}
+div .fotos-enmarcaciones{
+    display: grid;
+    margin-top: 15px;
+    grid-gap: 15px 20px;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 35px;
 }
 
 
