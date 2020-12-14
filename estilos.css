@@ -24,7 +24,7 @@
   display:flex;
  }
  /*navegacion*/
-  .navegacion {
+   .navegacion {
      display: flex;
      height: 45px;
      width: 100%;
@@ -32,7 +32,7 @@
      padding-left: 20px;
      background: rgba(10, 145, 199, 0.466);
      margin-bottom: 0px;
-     border-bottom: solid 3px rgba(114, 101, 228, 0.199);
+     border-bottom: solid 3px rgba(108, 90, 230, 0.199);
     } 
 .navegacion ul li{
     float: left;
@@ -44,6 +44,9 @@
      display:  flex;
      float: left;
      padding: 0px;
+    }
+    .nav-1:hover{
+        opacity: .6;
     }
  .icon{
      height: 30px;
