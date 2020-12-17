@@ -110,10 +110,17 @@ div .titulos {
     padding-top: 15px;
     margin-bottom: 5px;
 }
-.titulos a{
+.titulos .inicio img{
     float: left;
-    margin-left: 520px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
 }
+  .ancla-enmarcaciones{
+    display: flex;
+    align-items: center;
+    float: center;
+    }
 div .fotos-enmarcaciones{
     display: grid;
     margin-top: 15px;
