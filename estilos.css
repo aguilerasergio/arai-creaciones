@@ -107,20 +107,20 @@ div .enmarcaciones{
 }
 div .titulos {
     display: flex;
+    justify-content: space-between;
     padding-top: 15px;
     margin-bottom: 5px;
 }
-.titulos .inicio img{
+div .titulos .inicio img{
     float: left;
-    margin-left: 5px;
+    
     width: 30px;
     height: 30px;
 }
-  .ancla-enmarcaciones{
-    display: flex;
-    align-items: center;
-    float: center;
-    }
+ div .titulos .ancla{
+     display: flex;
+     float: center;
+     }
 div .fotos-enmarcaciones{
     display: grid;
     margin-top: 15px;
