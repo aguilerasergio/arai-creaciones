@@ -26,6 +26,7 @@
  /*navegacion*/
    .navegacion {
      display: flex;
+     float: center;
      height: 45px;
      width: 100%;
      padding-top: 8px;
@@ -107,20 +108,17 @@ div .enmarcaciones{
 }
 div .titulos {
     display: flex;
-    justify-content: space-between;
-    padding-top: 15px;
-    margin-bottom: 5px;
-}
-div .titulos .inicio img{
-    float: left;
-    
+   flex-direction: row;
+ }
+ .inicio img{
     width: 30px;
     height: 30px;
+    float: left;
+ }
+.ancla{
+    display: flex;
+    margin-left: 490px;
 }
- div .titulos .ancla{
-     display: flex;
-     float: center;
-     }
 div .fotos-enmarcaciones{
     display: grid;
     margin-top: 15px;
@@ -128,7 +126,7 @@ div .fotos-enmarcaciones{
     grid-template-columns: auto auto auto auto auto;
     margin-left: 35px;
 }
- @media (max-width: 700px) {body{background:red}
+ @media (max-width: 700px) {body{background:red} 
    }
       
 
