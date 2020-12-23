@@ -126,15 +126,15 @@ div .fotos-enmarcaciones{
     grid-template-columns: auto auto auto auto auto;
     margin-left: 35px;
 }
-.apaisajados{
+ div.apaisajados{
     display:flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
     margin-left: 30px;
+    border:solid 2px black;
 }
-.apaisajados img{
-    float: center;
-}
- @media (max-width: 700px) {body{background:red} 
+  @media (max-width: 700px) { body{background:red} 
    }
       
 
