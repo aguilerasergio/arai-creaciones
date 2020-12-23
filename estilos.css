@@ -103,13 +103,12 @@ div .section .caja-te{
 /*enmarcaciones*/
 div .enmarcaciones{
     width: 100%;
-    height: 950px;
+    height: 1150px;
     padding-top: 12px;
     background-color: rgba(112, 199, 25, 0.781);
 }
 div .titulos {
     display: flex;
-   flex-direction: row;
  }
  .inicio img{
     width: 30px;
@@ -126,6 +125,13 @@ div .fotos-enmarcaciones{
     grid-gap: 15px 20px;
     grid-template-columns: auto auto auto auto auto;
     margin-left: 35px;
+}
+.apaisajados{
+    display:flex;
+    margin-top: 20px;
+}
+.apaisajados img{
+    float: center;
 }
  @media (max-width: 700px) {body{background:red} 
    }
