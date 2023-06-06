@@ -97,7 +97,7 @@ div .section .caja-te{
   margin-left: 110px;
 }
 .celu:hover{
-    border-bottom: solid 2px white; 
+    border-bottom: solid 2px rgb(230, 123, 123); 
     opacity: .6;
 }
 /*enmarcaciones*/
