@@ -140,8 +140,6 @@ div .fotos-enmarcaciones{
     justify-content: center;
     gap: 66px;
     margin-top: 20px;
-    
-    border:solid 2px black;
 }
   @media (max-width: 700px) { body{background:red} 
    }
