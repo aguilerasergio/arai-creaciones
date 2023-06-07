@@ -4,7 +4,7 @@
    margin: 0px; 
    }
    body{
-  background-color: rgba(106, 162, 184, 0.493);
+  background-color: rgba(161, 194, 207, 0.493);
   color: ffffff;
  }
  ul{
@@ -32,7 +32,7 @@
      padding-top: 8px;
      padding-left: 20px;
      background: rgba(10, 145, 199, 0.466);
-     margin-bottom: 0px;
+     margin-bottom: 20px;
      border-bottom: solid 3px rgba(108, 90, 230, 0.199);
     } 
 .navegacion ul li{
@@ -57,10 +57,10 @@
  .nav-2{
      display: flex;
      float: left;
-     margin-left: 220px;
+     margin-left: 20px;
     }
     .nav-2 a{
-        margin-left: 35px;
+        margin-left: 5px;
     }
 
  /*banners*/
@@ -78,23 +78,28 @@ div .section{
     display:flex;
     justify-content: space-between;
      margin-top: 1px;
+     margin-bottom: 20px;
     }
-div .section .maletin{
+ .maletin{
+    width: 200px;
+    height: 300px;
     float: left;
-    margin-top: 60px;
-    margin-left: 100px;
+    margin-top: 10px;
+    margin-left: 120px;
     margin-right: 100px;
 }
-div .section .celu{
+ .celu{
     float:left;
-    margin-top: 30px;
-    margin-left: 270px;
-    margin-right: 260px;
+    margin-left: 170px;
+    margin-right: 100px;
+    margin-top: 40px;
 }
-div .section .caja-te{
-  float: left;
-  margin-top: 60px;
-  margin-left: 110px;
+.caja-te{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 120px;
 }
 .celu:hover{
     border-bottom: solid 2px rgb(230, 123, 123); 
@@ -116,7 +121,10 @@ div .titulos {
     float: left;
  }
 .ancla{
+    background: rgba(148, 169, 177, 0.493);
+    color: black;
     display: flex;
+    padding: 3px;
     margin-left: 490px;
 }
 div .fotos-enmarcaciones{
