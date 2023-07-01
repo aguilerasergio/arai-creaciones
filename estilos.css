@@ -27,10 +27,11 @@
    .navegacion {
      display: flex;
      float: center;
-     height: 45px;
+     height: 55px;
      width: 100%;
-     padding-top: 8px;
+     padding-top: 10px;
      padding-left: 20px;
+     padding-bottom: px;
      background: rgba(10, 145, 199, 0.466);
      margin-bottom: 20px;
      border-bottom: solid 3px rgba(108, 90, 230, 0.199);
@@ -58,6 +59,7 @@
      display: flex;
      float: left;
      margin-left: 20px;
+     padding-top: 6px;
     }
     .nav-2 a{
         margin-left: 5px;
