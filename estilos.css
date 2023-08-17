@@ -4,57 +4,48 @@
    margin: 0px; 
    }
    body{
-  background-color: rgba(161, 194, 207, 0.493);
+  background-color: rgba(120, 144, 153, 0.493);
   color: ffffff;
+  height: 100%;
  }
- ul{
-     list-style: none;
- }
+
  a{
     text-decoration: none;
      font-size: 25px;
      color:white;
     
  }
- a:hover{
-    border-bottom: solid 2px blue;
-    opacity: .6;
- }
+ 
   div .content{
   display:flex;
  }
  /*navegacion*/
+
+ .logo{
+    border-radius: 35px;
+    height: 50px;
+    width: 50px;
+    margin: 8px 50px;
+   }
+ .content-navegacion{
+    display:  flex;
+    justify-content: left;
+    background: rgba(62, 116, 138, 0.466);
+    padding: 2px 15px;
+    height: 70px;
+    border-bottom: 4px solid rgb(178, 218, 214);
+    margin-bottom: 30px;
+   }
    .navegacion {
-     display: flex;
-     float: center;
-     height: 55px;
-     width: 100%;
-     padding-top: 10px;
-     padding-left: 20px;
-     padding-bottom: px;
-     background: rgba(10, 145, 199, 0.466);
-     margin-bottom: 20px;
-     border-bottom: solid 3px rgba(108, 90, 230, 0.199);
+     display: inline-block;
+     padding: 10px 20px;
+     margin: 7px 3px;
     } 
-.navegacion ul li{
-    float: left;
-    justify-content: space-evenly;
-    text-decoration: none;
-    margin-left: 20px;
- }
- div .nav-1{
-     display:  flex;
-     float: left;
-     padding: 0px;
-    }
+  
     .nav-1:hover{
         opacity: .6;
     }
- .icon{
-     height: 30px;
-     width: 30px;
-     margin: 0px;
-    }
+ 
  .nav-2{
      display: flex;
      float: left;
@@ -68,51 +59,49 @@
  /*banners*/
  .banner{
      width: 88%;
-     height: 250px;
-     margin-top: 0px;
+     height: 350px;
+     margin-bottom: 20px;
      padding: 0px;
      margin-left: 10px;
  }
  /*section*/
-div .section{
+.section{
+    border: 1px solid black;
     width: 100%;
-    height: 330px;
+    height: 340px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
      margin-top: 1px;
      margin-bottom: 20px;
     }
+    .seccion{
+    display: inline-block;
+      
+    }
  .maletin{
-    width: 200px;
-    height: 300px;
-    float: left;
     margin-top: 10px;
     margin-left: 120px;
     margin-right: 100px;
 }
  .celu{
-    float:left;
-    margin-left: 170px;
     margin-right: 100px;
     margin-top: 40px;
 }
 .caja-te{
-    width: 200px;
-    height: 300px;
-    float: left;
     margin-top: 10px;
     margin-left: 120px;
+    border: 1px solid black;
 }
 .celu:hover{
     border-bottom: solid 2px rgb(230, 123, 123); 
     opacity: .6;
 }
 /*enmarcaciones*/
-div .enmarcaciones{
+ .fotos-enmarcaciones{
     width: 100%;
+    margin-top: 40px;
     height: 1150px;
     padding-top: 12px;
-    background-color: rgba(149, 163, 136, 0.781);
 }
 div .titulos {
     display: flex;
@@ -124,10 +113,11 @@ div .titulos {
  }
 .ancla{
     background: rgba(148, 169, 177, 0.493);
-    color: black;
-    display: flex;
+    float: left;
     padding: 3px;
-    margin-left: 490px;
+    margin-left: 4px;
+    width: 20px;
+    height: 20px;
 }
 div .fotos-enmarcaciones{
     display: grid;
