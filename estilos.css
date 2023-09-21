@@ -22,10 +22,9 @@
 
  .logo{
     border-radius: 35px;
-    height: 50px;
-    width: 50px;
-    margin: 8px 30px;
-    margin-right: 50px;
+    height: 60px;
+    width: 60px;
+    margin: 2px 30px;
    }
  .content-navegacion{
     display:  flex;
@@ -55,14 +54,16 @@
      align-items: center;
  }
  .img-banner{
+
     display: inline-block;
     padding: 10px 50px;
-    width: 440px;
-    height: 475px;
+    width: 420px;
+    height: 460px;
  }
   .celu{
-    width: 295px;
-    height: 290px;
+    width: 360px;
+    height: 380px;
+   
   }
   .celu:hover{
     opacity: 0.4;
