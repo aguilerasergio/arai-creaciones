@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background: linear-gradient( to right, rgb(216, 164, 96), rgb(207, 135, 41));
+}
+h1{
+    font-size: 90px;
+    font-weight: 800;
+    color: rgb(95, 80, 80);
+    margin-top: 120px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(95, 80, 80);
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+img{
+    width:240px;
+    height: 180px;
+    margin-top: 60px;
+}
